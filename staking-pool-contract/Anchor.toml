@@ -1,0 +1,12 @@
+[programs.devnet]
+staking_pool = "HWJiQ61uFie8iQqSH3P76ukWYZEvwLJj29RwQZY48C33"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/cuiapp/.config/solana/id.json"
+
+[scripts]
+test = "ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
